@@ -40,7 +40,7 @@ class CTClampConfig;
 
 class EmporiaVueComponent : public PollingComponent, public i2c::I2CDevice {
  public:
-  EmporiaVueComponent() : PollingComponent(240 /* ms */) {}
+  EmporiaVueComponent() : PollingComponent(480 /* ms */) {}
 
   void dump_config() override;
 
